@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 // Take an array of you friend's name. Now using the "bestFriend" function, show the longest friend name.
 
 
