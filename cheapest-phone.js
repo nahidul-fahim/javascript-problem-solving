@@ -13,9 +13,9 @@ let mobilePhones = [
 function cheapestPhone(lowestprice) {
     let cheapest = lowestprice[0];
     for(i = 0; i < lowestprice.length; i++){
-        let mobiles = lowestprice[i];
-        if(mobiles.price < cheapest.price){
-            cheapest = mobiles;
+        let mobile = lowestprice[i];
+        if(mobile.price < cheapest.price){
+            cheapest = mobile;
         }
     }
     return cheapest;
