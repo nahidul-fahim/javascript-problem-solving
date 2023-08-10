@@ -1,6 +1,6 @@
 // Take an array of numbers as input and return the sum of all numbers.
 
-let numbers =[10, "20", 50];
+let numbers =[10.389, 20.52, 50.6985];
 let sumOutput = sumOfArray (numbers);
 console.log(sumOutput);
 
@@ -15,5 +15,5 @@ function sumOfArray (numbers){
     for (const total of numbers){
         sum = sum + total;
     }
-    return sum;
+    return sum.toFixed(2);
 }
